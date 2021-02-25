@@ -1,1 +1,59 @@
+* {
+	box-sizing: border-box;
+}
 
+body{
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+/*HEADER*/
+
+#header-nav {
+	background-color: #DCDCDC;
+	border-radius: 0;
+	border: 0;
+	border-bottom: 2px black solid;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	margin-bottom: 15px;
+}
+.navbar-brand h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 1.8em;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+div h2 {
+	text-align: center;
+}
+
+div #chicken {
+	background-color: #DCDCDC;
+	height: 1000px;
+}
+
+div h3 {
+	text-align: center;
+}
