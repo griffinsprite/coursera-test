@@ -45,15 +45,14 @@ body{
   background: #E7E7E7;
 }
 
-div h2 {
-	text-align: center;
-}
-
-div #chicken {
+section {
 	background-color: #DCDCDC;
-	height: 1000px;
+	padding: 10px;
 }
 
-div h3 {
+.col-xs-12 {
+	padding: 15px;
+}
+.row section h3 {
 	text-align: center;
 }
