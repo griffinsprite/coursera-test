@@ -46,13 +46,17 @@ body{
 }
 
 section {
+	position: relative;
+	height: 700px;
 	background-color: #DCDCDC;
 	padding: 10px;
 }
 
+section div {
+	position: absolute;
+	bottom: 0px;
+}
+
 .col-xs-12 {
 	padding: 15px;
-}
-.row section h3 {
-	text-align: center;
 }
